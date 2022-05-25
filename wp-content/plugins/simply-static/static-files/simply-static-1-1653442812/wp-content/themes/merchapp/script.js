@@ -43,8 +43,8 @@ $(document).ready(function () {
   const menu = document.querySelector(".menu");
   const navcolor = document.querySelector(".nav-container");
   const logo = document.querySelector(".invlogo");
-  let initialSrc = "https://1goadmin.github.io/merchapp/wp-content/themes/merchapp/merchapp/img/malogoinv.svg";
-  let scrollSrc = "https://1goadmin.github.io/merchapp/wp-content/themes/merchapp/merchapp/img/mobilogo.svg";
+  let initialSrc = "https://1goadmin.github.io/merchapp/wp-content/themes/merchapp/img/malogoinv.svg";
+  let scrollSrc = "https://1goadmin.github.io/merchapp/wp-content/themes/merchapp/img/mobilogo.svg";
   
   function toggleMenu() {
 	if (
@@ -82,12 +82,12 @@ $(document).ready(function () {
 		  $(".nav-container").removeClass("bgswitch"),
 		  $(".menu").removeClass("active"));
 	});
-	$(window).scrollTop() <= 100
-	? $(".invlogo").attr("src", scrollSrc)
-	: ($(".invlogo").attr("src", initialSrc),
-	  $(".nav-container").addClass("bgswitch"),
-	  $(".menu").addClass("active"));
-	});
+		$(window).scrollTop() <= 99
+		? $(".invlogo").attr("src", scrollSrc),\
+		: ($(".invlogo").attr("src", initialSrc),
+		$(".nav-container").addClass("bgswitch"),
+		$(".menu").addClass("active"));
+		});
 
 
   //!MouseScroll Effect -------------------------------------------------------------------------------------------------------------------------->
