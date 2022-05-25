@@ -83,7 +83,7 @@ $(document).ready(function () {
 		  $(".menu").removeClass("active"));
 	});
 		$(window).scrollTop() <= 99
-		? $(".invlogo").attr("src", scrollSrc),\
+		? $(".invlogo").attr("src", scrollSrc)
 		: ($(".invlogo").attr("src", initialSrc),
 		$(".nav-container").addClass("bgswitch"),
 		$(".menu").addClass("active"));
