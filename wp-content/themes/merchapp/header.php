@@ -22,7 +22,7 @@
 <header class="container-fluid nav-container" style= "z-index:2; width:100vw; margin-left: 0; margin-right: 0;">
 		<nav class="container navigation">
 			<ul class="menunav" style="margin-left:.02rem;">
-				<li class="logo" style="text-align:left;"><a style="margin-right:50%;" href="<?=bloginfo('url');?>/"><img class="invlogo" src="<?php echo get_template_directory_uri(); ?>/img/mobilogo.svg" alt="logo" ></a></li>
+				<li class="logo" style="text-align:left;"><a style="margin-right:50%;" href="<?=bloginfo('url');?>/"><img class="invlogo" src="<?php echo get_template_directory_uri(); ?>/img/malogoinv.svg" alt="logo" ></a></li>
 				<li class="toggle" style="padding: .3rem .5rem 0  0; flex:1; position:relative;">
 					<a rel="nofollow" style="padding:0;" aria-pressed="false" style="color: #ce13af">
 						<i class="fa-solid fa-bars" id="togmenu" alt="toggle" style="color: #ce13af"></i>
