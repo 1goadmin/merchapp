@@ -29,7 +29,7 @@
 					</a>
 				</li>
 			</ul>
-			<ul class="menu">
+			<ul class="menu" style="top: 59px;">
 				<li class="item"><a href="#">COMPANY</a></li>
 				<li class="item"><a href="#">ECOMMERCE AUTOMATION</a></li>
 				<li class="item"><a href="#">SOLUTIONS</a></li>
