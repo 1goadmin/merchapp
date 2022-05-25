@@ -1,5 +1,15 @@
-
-
+/*
+Theme Name: MerchApp-theme
+Theme URI:
+Author: Ferl John D. Javier
+Author URI: https://github.com/ferlerrorr/ferlerrorr
+Description: In1go Technologies, Inc. is a progressive project management/software development firm leveraging technology to create value and make a difference.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:technology company in the philippines,technology,innovation,software,software development,project management,apps, mobile, digital,e commerce,technologies,logistics,marketing,sales,distributiion,warehousing,business,business apps,business integration,it,1go,in1go,applications,mobile,web development,system
+Text Domain:Mobidiser.com
+*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap');
 html {
 	box-sizing: border-box;
