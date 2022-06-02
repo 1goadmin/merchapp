@@ -30,11 +30,11 @@
 				</li>
 			</ul>
 			<ul class="menu" style="top: 59px;">
-				<li class="item"><a href="#">COMPANY</a></li>
-				<li class="item"><a href="#">ECOMMERCE AUTOMATION</a></li>
 				<li class="item"><a href="#">SOLUTIONS</a></li>
-				<li class="item"><a href="#">CONTACT US</a></li>
-				<li class="item son"><a class="sona" href="#">SELL ONLINE NOW!</a></li>
+				<li class="item"><a href="#">PARTNERS</a></li>
+				<li class="item"><a href="#">CLIENTS</a></li>
+				<li class="item"><a href="#">BLOGS</a></li>
+				<li class="item son"><a class="sona" href="<?=bloginfo('url');?>/demo/">CONTACT US</a></li>
 			</ul>
 		</nav>
 	</header>
