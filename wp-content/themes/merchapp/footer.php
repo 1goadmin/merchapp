@@ -17,12 +17,13 @@
 			</ul>
 		</div>
 		<div class="ft-col container">
-			<span class="ft-title col-space">What We Do</span>
+			<span class="ft-title col-space">About Us</span>
 			<ul class="contacts col-space">
-				<li><a class="ft-ahr" href="#" aria-label="about">Company</a></li>
-				<li><a class="ft-ahr" href="#" aria-label="s">Ecommerce Automation</a></li>
-				<li><a class="ft-ahr" href="#"  aria-label="s">Services</a></li>
-				<li><a class="ft-ahr" href="#"  aria-label="contact us">Contact Us</a></li>
+				<li><a class="ft-ahr" href="<?=bloginfo('url');?>/#features" aria-label="about" >Features</a></li>
+				<li><a class="ft-ahr" href="https://in1gotech.com/partners/" aria-label="s" target="_blank">Partners</a></li>
+				<li><a class="ft-ahr" href="https://in1gotech.com/patrons/"  aria-label="s" target="_blank" >Clients</a></li>
+				<li><a class="ft-ahr" href="https://in1gotech.com/blogs/"  aria-label="s" target="_blank" >Blogs</a></li>
+				<li><a class="ft-ahr" href="<?=bloginfo('url');?>/demo/"  aria-label="contact us">Contact Us</a></li>
 			</ul>
 
 		</div>

@@ -30,10 +30,10 @@
 				</li>
 			</ul>
 			<ul class="menu" style="top: 59px;">
-				<li class="item"><a href="#">SOLUTIONS</a></li>
-				<li class="item"><a href="#">PARTNERS</a></li>
-				<li class="item"><a href="#">CLIENTS</a></li>
-				<li class="item"><a href="#">BLOGS</a></li>
+				<li class="item"><a href="<?=bloginfo('url');?>/#features">FEATURES</a></li>
+				<li class="item"><a href="https://in1gotech.com/partners/" target="_blank" >PARTNERS</a></li>
+				<li class="item"><a href="https://in1gotech.com/patrons/" target="_blank" >CLIENTS</a></li>
+				<li class="item"><a href="https://in1gotech.com/blogs/" target="_blank" >BLOGS</a></li>
 				<li class="item son"><a class="sona" href="<?=bloginfo('url');?>/demo/">CONTACT US</a></li>
 			</ul>
 		</nav>
