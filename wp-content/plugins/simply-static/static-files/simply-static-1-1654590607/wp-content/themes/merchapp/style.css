@@ -41,24 +41,20 @@ html {
   }
   footer{
   font-family: 'Nunito Sans', sans-serif;
-  height: 120vh !important;
+  padding: 0 !important;
+  height: 20vh !important;
   width: 100%;
   font-size: medium;
   display: flex;
   font-weight:700;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   font-size: 3rem;
   color: #f1f1f1;
-  position: fixed;
   bottom: 0;
-  z-index: -1;
-  background-image: linear-gradient(90deg, #fc0589a6 20%, #2f0135d7 100% ), url("https://1goadmin.github.io/merchapp/wp-content/themes/merchapp/img/footer-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: bottom bottom;
-  background-attachment: fixed;
-  background-size: cover;
-  margin:0;
+  /* background: linear-gradient(90deg, #2F3D54 25%, #1B2243FA 100% ); */
+  background: #2f373d;
+
   }
 
   footer a{
@@ -173,10 +169,7 @@ video {
 	:root {
 	  --font-size: 19px;
 	}
-	footer {
 
-	  height: 100vh !important;
-  }
   }
 /* 
 Button------- */
@@ -451,24 +444,19 @@ nav a{
 Outline------- */
 footer {
   position: relative !important;
-  z-index: 10 !important;
-	padding-top: .5rem !important;
 	display: flex;
   overflow: hidden;
 	margin: 0;
 	flex-direction: column;
-	height: 100vh;
-	align-items: center;
-	padding-top: 0.5rem!important;
 	display: flex;
 	flex-direction: column;
 	line-height: .73rem;
 	font-weight: bold;
 	letter-spacing: .001rem;
+
 }
 
 	.ft-col {
-  
     width: 100% !important;
 	  height: max-content;
     width: max-content;
@@ -492,8 +480,9 @@ footer {
 
   .social-icons {
 	background-color: #f8f8f8;
-	padding: .8em;
-	color: #2f373d;
+  padding: 10px;
+  color: #2f373d;
+  border-radius: 50%;
   }
 
   .solicon{
@@ -512,9 +501,10 @@ footer {
   }
 
   .ft {
-	height: max-content;
-  width: max-content;
+	height: 15vh;
+  width: 100%;
 	margin: 1rem 0 0 0;
+  padding-top: .5rem;
 	display: flex;
 	flex-direction: row;
 	text-decoration: none;
@@ -527,9 +517,19 @@ footer {
 	font-size: small;
 	flex-direction: column;
 	list-style: none;
-	padding-top: 1.5rem;
   
   }
+
+  .ft-left {
+    align-items: flex-starts;
+    }
+
+  .ft-right {
+    align-items: flex-end;
+    }
+
+
+
   
   .ft-col a {
 	font-size: small;
@@ -543,7 +543,7 @@ footer {
   
   
   .col-space{
-    padding-left: 25% !important;
+    padding-left: 3% !important;
   }
 
   .ft-col span {
@@ -596,11 +596,12 @@ footer {
   }
 
   .toc {
-	padding-top: 1rem;
+  position: absolute;
+  bottom: 0;
 	font-size: 12px;
 	letter-spacing: 1.9px;
 	color: #f8f8f8;
-  text-align: center;
+  padding-left: 1.5%;
   }
   
   .toc a {
@@ -741,22 +742,18 @@ footer .ft-col ul li a:hover{
 
     footer {
       height: 100vh !important;
-      padding-bottom: 1rem;
       line-height: .3;
       margin: 0 !important;
       display: block;
-      padding-right: 2% !important;
-      padding-left: 2% !important;
+
     }
 
     .ft {
       width: 100vw;
-      height: 79vh;
+      height: 30vh;
       margin: 0 12% 5% 1%;
       display: inline-block;
       /* padding-top: 5% !important; */
-      padding-right: 10% !important;
-      padding-left: 2% !important;
   
     }
     .ft-logo{
@@ -863,9 +860,7 @@ footer .ft-col ul li a:hover{
 	}
   
 	footer {
-	  height: 100vh;
-	  padding-bottom: 1rem;
-	  padding-top: 2rem !important;
+	  height: 20vh;
 	}
   
   
@@ -896,6 +891,11 @@ footer .ft-col ul li a:hover{
     .toggle {
       display: none;
       color:  #fc0587 !important;
+    }
+
+    .menu{
+      display: flex;
+      justify-content: flex-end;
     }
   
   }
@@ -1066,14 +1066,14 @@ footer .ft-col ul li a:hover{
   
    
     main{
-      margin-bottom: 100vh !important;
+      /* margin-bottom: 100vh !important; */
       height: 100vh;
     }
     footer{
-      height: 100vh!important;
+      height: 20vh!important;
     }
     .ft{
-      height: 100vh !important;
+      height:30vh !important;
       /* padding-top: 10% !important; */
     }
   }
@@ -1216,7 +1216,6 @@ footer .ft-col ul li a:hover{
   
 	footer {
 	  height: max-content;
-	  padding-bottom: 1rem;
 	}
   
 	.ft-col span {
@@ -1236,9 +1235,11 @@ footer .ft-col ul li a:hover{
   
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 900px) {
 	.ft {
-
+    margin: 0.1rem 0 0 0;
+    position: absolute;
+    top: 1.5%;
 	  margin: .1rem 0 0 0;
 	}
 
