@@ -431,6 +431,13 @@ nav a{
 }
 
 
+.ft-right {
+  align-items: flex-end;
+  margin-right:9% !important;
+  }
+
+
+
 
 .scrolled2 li a{
   color:  #fc0587 !important;
@@ -524,9 +531,6 @@ footer {
     align-items: flex-starts;
     }
 
-  .ft-right {
-    align-items: flex-end;
-    }
 
 
 
@@ -591,7 +595,7 @@ footer {
   
   }
   
-  .footer-company-about {
+  .footer-company-about { 
 	margin-left: .3rem;
   }
 
@@ -673,16 +677,18 @@ footer .ft-col ul li a:hover{
 }
 
 
+.ft-logo{
+width: 5rem !important;
+}
+
+
 /* TOC */
 @media only screen and (max-width: 360px) and (min-width: 100px){
 .toc {
   font-size: .8rem !important;
     position: absolute;
-    bottom: 5%;
-    left: 14% !important;
+    bottom: 17%;
     margin: 0 0 2% -6% !important;
-    bottom: 2% !important;
-    padding-right: 15%;
     line-height: 1;
   }
 }
@@ -691,8 +697,8 @@ footer .ft-col ul li a:hover{
 .toc {
   position: absolute;
   bottom: 12%;
-  padding-left: 10%;
-  padding-right: 20%;
+  padding: 0%;
+  left: 2% !important;
   line-height: 1;
   }
 }
@@ -748,6 +754,7 @@ footer .ft-col ul li a:hover{
 
     }
 
+
     .ft {
       width: 100vw;
       height: 30vh;
@@ -758,13 +765,14 @@ footer .ft-col ul li a:hover{
     }
     .ft-logo{
       margin-bottom: .5rem;
-      width: 23% !important;
+      width: 5rem !important;
       justify-content: center;
     }
   
     .ft-col {
       height: max-content;
-      margin: 0 2% 2% 1%;
+      /* margin: 0 2% 2% 1%; */
+      margin: 0%;
       display: inline-block;
       padding: 0;
       padding-right: 0 !important;
@@ -772,6 +780,14 @@ footer .ft-col ul li a:hover{
       border-bottom-width: 0px;
   
     }
+
+    .ft-right {
+      margin: 0 !important;
+      position: absolute;
+    bottom: 5%;
+    left: 2.5%
+      }
+    
     .col-space{
       padding-left: 0% !important;
     }
@@ -786,7 +802,7 @@ footer .ft-col ul li a:hover{
     }
   
     .ft-col a {
-      line-height: 1.8;
+      line-height: 2.4;
     }
   
     #email {
@@ -1070,14 +1086,28 @@ footer .ft-col ul li a:hover{
       height: 100vh;
     }
     footer{
-      height: 20vh!important;
+      height: 50vh!important;
+      
     }
+
+
+    
+  .ft-left {
+    align-items: center !important;
+    }
+
+
+
     .ft{
-      height:30vh !important;
+      height:45vh !important;
       /* padding-top: 10% !important; */
-    }
+      justify-content: center !important;
   }
 
+  .col-space {
+    display: block !important;
+    }
+  }
   @media only screen and (max-width: 990px) and (min-width: 100px) {
     header {
       background-color: var(--form-element-active-background-color);
@@ -1124,6 +1154,13 @@ footer .ft-col ul li a:hover{
       flex-basis: 95%;
     }
   
+
+    .ft-logo {
+      margin-bottom: 1rem;
+      width: 5rem !important;
+      }
+      
+
     nav ul .logo a {
       text-align: left;
     }

@@ -7,7 +7,7 @@
 		<div class="ft-col ft-left">
 			<ul class="contacts col-space" style="display: inline-flex; padding: 10px 0 0 0;">
 				<li class="ft-logo"><a href="#" aria-label="footerlogo"><img src="<?php echo get_template_directory_uri(); ?>/img/malogoinv.svg" alt="logo"
-							style="width: 4rem;"></a>
+						></a>
 				</li>
 				<li><a class="ft-ahr" href="https://in1gotech.com/marketing-services/" aria-label="about" target="_blank" >About Us</a></li>
 				<li><a class="ft-ahr" href="https://in1gotech.com/about-us/" aria-label="about" target="_blank" >ISO Certified</a></li>
@@ -16,7 +16,7 @@
 				<li><a class="ft-ahr" href="<?=bloginfo('url');?>/demo/"  aria-label="contact us">Contact Us</a></li>
 			</ul>
 		</div>
-		<div class="ft-col ft-right" style="margin-right:9%;">
+		<div class="ft-col ft-right">
 			<ul>
 				<li>
 					<div class="contacts ft-contacts solicons solicon" style="margin-left:0 !important">
